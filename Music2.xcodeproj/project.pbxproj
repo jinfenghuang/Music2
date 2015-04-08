@@ -13,6 +13,15 @@
 		6533C0CD1ABE1C43000FD69F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0CC1ABE1C43000FD69F /* Images.xcassets */; };
 		6533C0D01ABE1C43000FD69F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0CE1ABE1C43000FD69F /* LaunchScreen.xib */; };
 		6533C0DC1ABE1C44000FD69F /* Music2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533C0DB1ABE1C44000FD69F /* Music2Tests.swift */; };
+		6533C0EF1ABE1E68000FD69F /* music0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0E61ABE1E68000FD69F /* music0.mp3 */; };
+		6533C0F01ABE1E68000FD69F /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0E71ABE1E68000FD69F /* music1.mp3 */; };
+		6533C0F11ABE1E68000FD69F /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0E81ABE1E68000FD69F /* music2.mp3 */; };
+		6533C0F21ABE1E68000FD69F /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0E91ABE1E68000FD69F /* music3.mp3 */; };
+		6533C0F31ABE1E68000FD69F /* music4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0EA1ABE1E68000FD69F /* music4.mp3 */; };
+		6533C0F41ABE1E68000FD69F /* music5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0EB1ABE1E68000FD69F /* music5.mp3 */; };
+		6533C0F51ABE1E68000FD69F /* music6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0EC1ABE1E68000FD69F /* music6.mp3 */; };
+		6533C0F61ABE1E68000FD69F /* music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6533C0EE1ABE1E68000FD69F /* music.jpg */; };
+		6533C0F81ABE20D1000FD69F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533C0F71ABE20D1000FD69F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,15 @@
 		6533C0D51ABE1C44000FD69F /* Music2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Music2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6533C0DA1ABE1C44000FD69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6533C0DB1ABE1C44000FD69F /* Music2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music2Tests.swift; sourceTree = "<group>"; };
+		6533C0E61ABE1E68000FD69F /* music0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music0.mp3; sourceTree = "<group>"; };
+		6533C0E71ABE1E68000FD69F /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		6533C0E81ABE1E68000FD69F /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		6533C0E91ABE1E68000FD69F /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
+		6533C0EA1ABE1E68000FD69F /* music4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music4.mp3; sourceTree = "<group>"; };
+		6533C0EB1ABE1E68000FD69F /* music5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music5.mp3; sourceTree = "<group>"; };
+		6533C0EC1ABE1E68000FD69F /* music6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music6.mp3; sourceTree = "<group>"; };
+		6533C0EE1ABE1E68000FD69F /* music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = music.jpg; sourceTree = "<group>"; };
+		6533C0F71ABE20D1000FD69F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6533C0F81ABE20D1000FD69F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,7 @@
 		6533C0B71ABE1C43000FD69F = {
 			isa = PBXGroup;
 			children = (
+				6533C0F71ABE20D1000FD69F /* AVFoundation.framework */,
 				6533C0C21ABE1C43000FD69F /* Music2 */,
 				6533C0D81ABE1C44000FD69F /* Music2Tests */,
 				6533C0C11ABE1C43000FD69F /* Products */,
@@ -77,11 +97,8 @@
 		6533C0C21ABE1C43000FD69F /* Music2 */ = {
 			isa = PBXGroup;
 			children = (
-				6533C0C51ABE1C43000FD69F /* AppDelegate.swift */,
 				6533C0C71ABE1C43000FD69F /* ViewController.swift */,
 				6533C0C91ABE1C43000FD69F /* Main.storyboard */,
-				6533C0CC1ABE1C43000FD69F /* Images.xcassets */,
-				6533C0CE1ABE1C43000FD69F /* LaunchScreen.xib */,
 				6533C0C31ABE1C43000FD69F /* Supporting Files */,
 			);
 			path = Music2;
@@ -90,7 +107,12 @@
 		6533C0C31ABE1C43000FD69F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6533C0C51ABE1C43000FD69F /* AppDelegate.swift */,
+				6533C0CC1ABE1C43000FD69F /* Images.xcassets */,
+				6533C0CE1ABE1C43000FD69F /* LaunchScreen.xib */,
 				6533C0C41ABE1C43000FD69F /* Info.plist */,
+				6533C0E51ABE1E68000FD69F /* music */,
+				6533C0ED1ABE1E68000FD69F /* image */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +132,28 @@
 				6533C0DA1ABE1C44000FD69F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6533C0E51ABE1E68000FD69F /* music */ = {
+			isa = PBXGroup;
+			children = (
+				6533C0E61ABE1E68000FD69F /* music0.mp3 */,
+				6533C0E71ABE1E68000FD69F /* music1.mp3 */,
+				6533C0E81ABE1E68000FD69F /* music2.mp3 */,
+				6533C0E91ABE1E68000FD69F /* music3.mp3 */,
+				6533C0EA1ABE1E68000FD69F /* music4.mp3 */,
+				6533C0EB1ABE1E68000FD69F /* music5.mp3 */,
+				6533C0EC1ABE1E68000FD69F /* music6.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		6533C0ED1ABE1E68000FD69F /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6533C0EE1ABE1E68000FD69F /* music.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +237,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6533C0CB1ABE1C43000FD69F /* Main.storyboard in Resources */,
+				6533C0EF1ABE1E68000FD69F /* music0.mp3 in Resources */,
 				6533C0D01ABE1C43000FD69F /* LaunchScreen.xib in Resources */,
+				6533C0F51ABE1E68000FD69F /* music6.mp3 in Resources */,
+				6533C0F41ABE1E68000FD69F /* music5.mp3 in Resources */,
+				6533C0F61ABE1E68000FD69F /* music.jpg in Resources */,
+				6533C0F11ABE1E68000FD69F /* music2.mp3 in Resources */,
+				6533C0F01ABE1E68000FD69F /* music1.mp3 in Resources */,
+				6533C0F31ABE1E68000FD69F /* music4.mp3 in Resources */,
 				6533C0CD1ABE1C43000FD69F /* Images.xcassets in Resources */,
+				6533C0F21ABE1E68000FD69F /* music3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
